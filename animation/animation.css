@@ -1,0 +1,107 @@
+    * {
+        box-sizing: border-box;
+        margin: auto;
+        max-width: 1000px;
+    }
+    
+    body {
+        background-color: #dddddd;
+    }
+    
+    #login {
+        color: white;
+        background-color: rgb(60, 60, 199);
+        margin: auto;
+        width: 200px;
+        height: 75px;
+        border: 1px solid blue;
+        border-radius: 5px;
+        margin-top: 100px;
+        padding-top: 20px;
+        margin-bottom: 100px;
+    }
+    
+    #login:hover {
+        border-radius: 80px;
+        background-color: blueviolet;
+        transition: all 1s ease-in-out;
+    }
+    
+    .trai img {
+        width: 210px;
+        height: 230px;
+    }
+    
+    .trai img:hover {
+        transform: scale(1.25);
+        transition: transform 0.5s ease-in-out;
+    }
+    
+    .trai {
+        padding-left: 100px;
+        margin-top: 50px;
+        float: left;
+        width: 33.33333%;
+    }
+    
+    .heart {
+        padding-left: 200px;
+        width: 500px;
+        height: 500px;
+    }
+    
+    .heart img {
+        max-width: 150px;
+        padding-top: 150px;
+        animation: .8s infinite heart;
+    }
+    
+    @keyframes heart {
+        0% {
+            transform: scale(1);
+        }
+        25% {
+            transform: scale(1.1);
+        }
+        40% {
+            transform: scale(1);
+        }
+        60% {
+            transform: scale(1.1);
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
+    
+    .study {
+        margin-top: 800px;
+        margin-left: 100px;
+        margin-bottom: 300px;
+    }
+    
+    h1 {
+        
+        text-align: center;
+    }
+    
+    .learning h1 {
+        background-color: green;
+        width: 230px;
+        color: white;
+        
+    }
+
+    .bt4 {
+        margin-top: 20px;
+    }
+
+    .bt4 h1 {
+        font-size: 40px;
+    }
+
+    @keyframes binladen {
+        50% {
+            
+        }
+    }
