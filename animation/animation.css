@@ -86,7 +86,6 @@
     }
     
     .learning h1 {
-        background-color: green;
         width: 230px;
         color: white;
         
@@ -100,8 +99,25 @@
         font-size: 40px;
     }
 
-    @keyframes binladen {
-        50% {
-            
-        }
+    .learning h1::after {
+        content: "CODING";
+    animation-name: change-text;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation: change-text 1s infinite;
     }
+
+    @keyframes change-text{
+        0%{
+            background-color: red;
+        }
+        50%{
+            content: "TEACHING";
+            background-color: blue;
+        }
+        75%{
+            content: "LEARNING";
+            background-color: green;
+        }
+  }
